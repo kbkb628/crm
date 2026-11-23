@@ -4,6 +4,9 @@
 
 **Agent 原生的开源 CRM —— 让 AI 在真实客户、商机与会话上干活，每一步都留痕。**
 
+**[在线演示 · 移动端](https://crm.helson.top/mobile)** —— 不用安装，手机打开即用
+
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-crm.helson.top-2EA44F?logo=googlechrome&logoColor=white)](https://crm.helson.top/mobile)
 [![Next.js 16](https://img.shields.io/badge/Next.js-16-000000?logo=nextdotjs&logoColor=white)](https://nextjs.org)
 [![React 19](https://img.shields.io/badge/React-19-087EA4?logo=react&logoColor=white)](https://react.dev)
 [![TypeScript](https://img.shields.io/badge/TypeScript-6-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org)
@@ -13,7 +16,7 @@
 [![Self-hosted](https://img.shields.io/badge/Deploy-Self--hosted-6F42C1)](#自托管)
 [![Node](https://img.shields.io/badge/Node-%E2%89%A522-339933?logo=nodedotjs&logoColor=white)](.nvmrc)
 
-[30 秒演示](#30-秒零依赖演示) · [核心功能](#核心功能) · [架构](#架构) · [快速开始](#快速开始) · [安全与合规](#安全与合规)
+[在线演示](https://crm.helson.top/mobile) · [30 秒本地演示](#30-秒零依赖演示) · [核心功能](#核心功能) · [架构](#架构) · [快速开始](#快速开始) · [安全与合规](#安全与合规)
 
 <img src="assets/screenshots/workbench.jpg" alt="Pi Native CRM Agent 工作台" width="100%">
 
@@ -203,6 +206,13 @@ sequenceDiagram
 ---
 
 ## 快速开始
+
+### 在线体验
+
+直接用手机或浏览器打开 **<https://crm.helson.top/mobile>**。
+
+- 移动端演示，无需注册、无需任何密钥；
+- 客户、金额与审批全部为虚构数据，不会向真实客户发送消息。
 
 ### 30 秒零依赖演示
 
