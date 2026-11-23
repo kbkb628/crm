@@ -17,7 +17,7 @@
     "lint": "eslint .",
     "format": "prettier --write \"**/*.{ts,tsx,md,json,css}\"",
     "format:check": "prettier --check \"**/*.{ts,tsx,md,json,css}\"",
-    "typecheck": "tsc --noEmit -p tsconfig.typecheck.json",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
     "db:migrate": "bash scripts/db-migrate.sh",
     "db:reset": "supabase db reset",
     "lint:channels": "tsx scripts/lint-channels.ts",
