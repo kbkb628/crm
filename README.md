@@ -4,9 +4,10 @@
 
 **Agent 原生的开源 CRM —— 让 AI 在真实客户、商机与会话上干活，每一步都留痕。**
 
-**[在线演示 · 移动端](https://crm.helson.top/mobile)** —— 不用安装，手机打开即用
+<a href="https://crm.helson.top/mobile"><img src="https://img.shields.io/badge/%E2%96%B6%20%E6%89%93%E5%BC%80%E5%9C%A8%E7%BA%BF%E6%BC%94%E7%A4%BA-crm.helson.top-2EA44F?style=for-the-badge&amp;logo=googlechrome&amp;logoColor=white" alt="打开在线演示" height="44"></a>
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-crm.helson.top-2EA44F?logo=googlechrome&logoColor=white)](https://crm.helson.top/mobile)
+**[手机 / 电脑打开即用，无需安装与注册](https://crm.helson.top/mobile)** · 演示数据全部虚构
+
 [![Next.js 16](https://img.shields.io/badge/Next.js-16-000000?logo=nextdotjs&logoColor=white)](https://nextjs.org)
 [![React 19](https://img.shields.io/badge/React-19-087EA4?logo=react&logoColor=white)](https://react.dev)
 [![TypeScript](https://img.shields.io/badge/TypeScript-6-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org)
