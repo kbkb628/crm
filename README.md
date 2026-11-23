@@ -276,6 +276,7 @@ lib/                  agent-engine、工具与 Harness、RAG、记忆、鉴权�
 workers/              event_log 消费者与后台任务
 supabase/             迁移、RLS 策略与自托管基线（340+ 迁移）
 hostgator-setup-kit/  自托管安装、升级、诊断套件
+docker/               Dockerfile（app / worker / scheduler / voice）与 Caddyfile
 examples/             零依赖演示站点
 infra/                本地 Agent 服务与部署配置
 scripts/              运维与 QA 命令行
@@ -288,7 +289,7 @@ assets/               文档与演示截图
 - [`SECURITY.md`](SECURITY.md) —— 漏洞报告与关注范围
 - [`examples/chat-first-demo/`](examples/chat-first-demo) —— 零依赖演示站点的实现
 
-> 本仓库是面向展示与二次分发的运行版：内部设计文档、研究记录、验证证据与内部测试套件未随包发布，因此 `pnpm test:*` 类脚本在此仓库中不可用。
+> 本仓库是面向展示与二次分发的运行版：内部设计文档、研究记录、验证证据与测试套件未随包发布，仓库中不包含 `test` 脚本与测试配置。
 
 ---
 

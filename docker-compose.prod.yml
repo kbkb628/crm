@@ -93,7 +93,7 @@ services:
     pull_policy: ${WORKER_PULL_POLICY:-always}
     build:
       context: .
-      dockerfile: Dockerfile.worker
+      dockerfile: docker/Dockerfile.worker
     restart: unless-stopped
     env_file: .env
     environment:
@@ -214,7 +214,7 @@ services:
     pull_policy: ${SCHEDULER_PULL_POLICY:-always}
     build:
       context: .
-      dockerfile: Dockerfile.scheduler
+      dockerfile: docker/Dockerfile.scheduler
     restart: unless-stopped
     depends_on:
       app:
@@ -381,7 +381,7 @@ services:
     pull_policy: ${VOICE_AGENT_PULL_POLICY:-always}
     build:
       context: .
-      dockerfile: Dockerfile.voice-agent
+      dockerfile: docker/Dockerfile.voice-agent
     restart: unless-stopped
     depends_on:
       asterisk:
@@ -406,7 +406,7 @@ services:
       DOMAIN: ${DOMAIN}
       ACME_EMAIL: ${ACME_EMAIL}
     volumes:
-      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - ./docker/Caddyfile:/etc/caddy/Caddyfile:ro
       - caddy-data:/data           # certificados Let's Encrypt (persistir!)
       - caddy-config:/config
     depends_on:
