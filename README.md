@@ -279,7 +279,7 @@ hostgator-setup-kit/  自托管安装、升级、诊断套件
 docker/               Dockerfile（app / worker / scheduler / voice）与 Caddyfile
 examples/             零依赖演示站点
 infra/                本地 Agent 服务与部署配置
-scripts/              运维与 QA 命令行
+scripts/              运维与开发命令行
 assets/               文档与演示截图
 ```
 
